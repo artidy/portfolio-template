@@ -6,8 +6,10 @@
 
 .grid-container {
     display: grid;
-    grid-template: 60px 60px 60px / 200px 200px 200px;
-    gap: 20px;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .grid-elem {
