@@ -1,0 +1,6 @@
+node_modules
+dist
+
+src/img/main_photo.jpeg
+src/img/main_bg.png
+src/icons/favicon
