@@ -1,5 +1,6 @@
 node_modules
 dist
+.DS_Store
 
 src/img/main_photo.jpeg
 src/img/main_bg.png
