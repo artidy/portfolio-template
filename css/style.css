@@ -4,21 +4,31 @@
     padding: 0;
 }
 
-.grid-container {
-    display: grid;
-    width: 700px;
-    height: 700px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+body {
+    background: #FFFFFF;
 }
 
-.grid-elem {
-    height: 50px;
-    background-color: rgba(1, 1, 96, 1);
-    color: #fff;
-    line-height: 50px;
-    text-align: center;
-    font-size: 26px;
-    border: 1px solid #000;
-    border-radius: 4px;
+.grid-container {
+    display: grid;
+    margin: 82px auto;
+    width: 1140px;
+    height: 750px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, auto));
+    grid-template-rows: repeat(2, minmax(260px, auto));
+    grid-auto-rows: minmax(260px, auto);
+    gap: 60px;
+}
+
+.grid-elem img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.grid-elem p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
 }
