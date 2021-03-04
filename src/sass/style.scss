@@ -28,6 +28,21 @@
     margin: 25px auto 0 auto;
 }
 
+.resume,
+.skills,
+.portfolio,
+.price {
+    padding-top: 120px;
+    text-align: center;
+    h2 {
+		&:before {
+			top: -6px;
+			left: 50%;
+			transform: translateX(-35%);	
+		}
+	}
+}
+
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
@@ -36,3 +51,6 @@
 @import 'blocks/about';
 @import 'blocks/resume';
 @import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';
