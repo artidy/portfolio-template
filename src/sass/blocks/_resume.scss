@@ -46,6 +46,9 @@
 			background-color: #000;
 			top: 63px;
 		}
+		img {
+			object-fit: cover;
+		}
 		&-head {
 			display: grid;
 			grid-template-columns: 40px minmax(300px, auto);
