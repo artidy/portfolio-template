@@ -1,0 +1,20 @@
+.sidepanel {
+	position: fixed;
+	top: 210px;
+	left: 50px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 3;
+	align-items: center;
+	width: 338px;
+	height: 24px;
+	transform: rotate(-90deg) translate(-50%, -150px);
+	&__devider {
+		width: 70px;
+		height: 2px;
+		background-color: #000;
+	}
+	&__text {
+		width: 150px;
+	}
+}
