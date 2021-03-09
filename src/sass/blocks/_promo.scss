@@ -1,8 +1,10 @@
 .promo {
 	min-height: 100vh;
 	position: relative;
-	background: url('../img/main_bg.png') no-repeat 50%/cover;
-	padding-top: 300px;
+	background: url('../img/main_bg-momik.png') no-repeat;
+	background-size: 50%, cover;
+	background-position: 80% bottom;
+	padding-top: 100px;
 	&__title {
 		width: 530px;
 		margin-top: 10px;
